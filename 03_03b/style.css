@@ -1,0 +1,17 @@
+.demo-area {
+    display: flex;
+    justify-content: center;
+}
+
+.default {
+    box-sizing: border-box;
+    margin-block-end: 1rem;
+    padding: 0 1rem;
+    border: 1px solid hsl(0, 0%, 50%);
+}
+
+@media screen and (min-width: 30rem) {
+    .default {
+        font-size: 120%;
+    }
+}

@@ -1,0 +1,21 @@
+.demo-area {
+    margin: 0 auto;
+    max-width: 70ch;
+    border: 1em solid black;
+    display: flow-root;
+}
+
+/* Old school clearfix */
+/* .demo-area::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.square {
+    margin-inline-end: 1rem;
+    width: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    float: left;
+}

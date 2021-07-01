@@ -1,0 +1,15 @@
+.demo-area {
+    display: flex;
+    justify-content: center;
+}
+
+.default {
+    box-sizing: border-box;
+    margin-block-end: 1rem;
+    padding: 0 1rem;
+    border: 1px solid hsl(0, 0%, 50%);
+    width: min(40ch, calc(100vw - 2rem));
+    /* width: max(50vw, 20ch); */
+    font-size: clamp(1rem, 3vw, 1.4rem);
+}
+

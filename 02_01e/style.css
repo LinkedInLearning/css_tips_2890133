@@ -1,0 +1,36 @@
+body {
+    /* overflow-x: hidden; */
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.demo-area > * {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 40rem;
+}
+
+.demo-area h2 {
+    background: pink;
+    line-height: 2;
+    max-width: 100%;
+    
+}
+
+.horizontal-img {
+    max-width: 100%;
+    
+}
+
+figcaption {
+    padding: .5rem 1rem;
+}
+

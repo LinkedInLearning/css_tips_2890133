@@ -1,15 +1,18 @@
 :root {
     --line-width: .75rem;
     --base-color: 42;
-    --color-dark: hsl(var(--base-color), 85%, 50% );
-    --color-medium: hsl(var(--base-color), 65%, 70% );
-    --color-light: hsl(var(--base-color), 85%, 90% );
+    --color-dark: 
+        hsl(var(--base-color), 85%, 50% );
+    --color-medium: 
+        hsl(var(--base-color), 65%, 70% );
+    --color-light: 
+        hsl(var(--base-color), 85%, 90% );
     --key-color: purple;
 }
 
 .demo-area {
     margin: 0 auto;
-    width: 70ch;
+    width: 60ch;
 }
 
 .demo-area ul {

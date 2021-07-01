@@ -1,0 +1,62 @@
+.demo-area {
+    margin: 0 auto;
+    width: 70ch;
+}
+
+.demo-area ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.demo-area li {
+    display: block;
+    height: 10rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem 1rem;
+}
+
+.flexible {
+    display: flex;
+    gap: 1rem;
+}
+
+.flexible li {
+    width: calc(100% * 1/3);  
+}
+
+li:first-of-type {
+    background-color: hsl(25, 100%, 50%);
+}
+
+li:nth-child(2) {
+    background-color: hsl(25, 100%, 65%);
+}
+
+li:nth-child(3) {
+    background-color: hsl(25, 100%, 75%);
+}
+
+li:nth-child(4) {
+    background-color: hsl(25, 100%, 85%);
+}
+
+li:nth-child(5) {
+    background-color: hsl(25, 70%, 50%);
+}
+
+li:nth-child(6) {
+    background-color: hsl(25, 70%, 65%);
+}
+
+li:nth-child(7) {
+    background-color: hsl(25, 70%, 75%);
+}
+
+li:nth-child(8) {
+    background-color: hsl(25, 70%, 85%);
+}

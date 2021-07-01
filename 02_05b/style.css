@@ -1,0 +1,11 @@
+.demo-area {
+    margin: 0 auto;
+    inline-size: 65vw;
+    block-size: 65vh;
+    background: hsl(0, 0%, 65%);
+}
+
+.center {
+    border: 5px solid black;
+    padding: 1rem;
+}

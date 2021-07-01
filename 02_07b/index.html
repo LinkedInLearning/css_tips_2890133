@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The clear property</title>
+    <link href="../assets/base.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="masthead">
+        <h1 class="pagetitle">How the clear property works</h1>
+    </header>
+    <main class="demo-area">
+        <img class="square" src="../assets/Beach_bird_LIL_9971.jpg" width="1024" height="683" alt="" >
+        <p>With flex and grid in place, I often get asked if float and clear are still relevant. The answer is of course they are! And now, for the first time, we get to use them the way they were intended to be used.</p>
+        <h2>Control with clear</h2>
+        <p>The float property places an item to the left or right side of its parent container by removing it from the normal flow of the page and literally floating it in its context. The remaining elements in the same parent container flow or float around the floated container filling up the available space. In a text editor we call this text wrap. </p>
+        <p>Once we float an item, it is often necessary to control what other items can appear next to it. That’s where the clear property comes in.</p>
+        <p>In the good old days of float-based layouts, we used clear as part of a clearfix to ensure containers didn’t collapse, and this introduced quite a bit of confusion about what the clear property is actually for, so let me explain:</p>
+        <p>If you apply clear: right to an item, you are saying “nothing can appear - or float - to the right of this item” and adjacent siblings are literally cleared away from the space.</p>
+        <p>Clear left prevents adjacent siblings from appearing on the left, clear right on the right, and clear both clears both sides.</p>
+        
+    </main>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body {
+    /* overflow-x: hidden; */
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.demo-area  {
+    margin: 0 auto;
+    max-width: 40rem;
+}
+
+.demo-area h2 {
+    background: pink;
+    line-height: 2;
+    width: 100vw;
+    margin-left: calc(-1 * (100vw - 40rem) / 2);
+}
+
+.horizontal-img {
+    width: 100vw;
+    margin-left: calc(-1 * (100vw - 40rem) / 2);
+}
+
+figcaption {
+    padding: .5rem 1rem;
+}
+

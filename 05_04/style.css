@@ -25,7 +25,7 @@ img {
     display: grid;
     grid-template-columns: var(--indent) calc(3 * var(--indent)) 1fr 1fr calc(2 * var(--indent)) var(--indent);
     grid-template-rows: var(--indent) calc(3 * var(--indent)) 1fr calc(2 * var(--indent)) var(--indent);
-    max-width: 60rem;
+    max-width: 40rem;
 }
 
 .card::before {
@@ -66,7 +66,6 @@ img {
     margin: 0;
     padding-bottom: 1rem;
     font-size: clamp(2rem, 2.5vw, 3rem);
-    font-size: 3rem;
     font-weight: 100;
     align-self: flex-end;
 }
@@ -88,9 +87,10 @@ img {
     place-self: flex-end;
     margin: 0;
     padding: 1rem;
+    font-size: 80%;
     text-align: end;
     color: white;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .card a {

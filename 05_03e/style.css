@@ -1,0 +1,78 @@
+/* Old School Clearfix */
+/* *::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+.demo-area {
+    margin: 0 auto;
+    width: 70ch;
+}
+
+.demo-area ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid black;
+}
+
+.demo-area ul::before {
+    content: "I'm a before pseudo-element";
+}
+
+.demo-area ul::after {
+    content: "I'm an after pseudo-element";
+}
+
+.demo-area li {
+    display: block;
+    height: 10rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+}
+
+.flexible {
+    display: flex;
+    gap: .5rem;
+}
+
+.flexible li {
+    width: calc(100% * 1/3);  
+}
+
+li:first-of-type {
+    background-color: hsl(25, 100%, 50%);
+}
+
+li:nth-child(2n) {
+    background-color: hsl(25, 100%, 65%);
+}
+
+li:nth-child(3n) {
+    background-color: hsl(25, 100%, 75%);
+}
+
+li:nth-child(4n) {
+    background-color: hsl(25, 100%, 85%);
+}
+
+li:nth-child(5n) {
+    background-color: hsl(25, 70%, 50%);
+}
+
+li:nth-child(6n) {
+    background-color: hsl(25, 70%, 65%);
+}
+
+li:nth-child(7n) {
+    background-color: hsl(25, 70%, 75%);
+}
+
+li:nth-child(8n) {
+    background-color: hsl(25, 70%, 85%);
+}

@@ -1,0 +1,37 @@
+:root {
+    /* --line-width: .75rem;
+    --key-color: purple; */
+}
+
+.demo-area {
+    margin: 0 auto;
+    width: 50ch;
+    display: flex;
+    justify-content: center
+}
+
+.card {
+    width: min(30ch, calc(100vh - 2rem));
+    border: var(--line-width, 1px) solid var(--key-color, black);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.card img {
+    width: calc(100% + 2rem);
+    margin: -1rem -1rem 0 -1rem;
+}
+
+.card h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card p {
+    height: 4.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

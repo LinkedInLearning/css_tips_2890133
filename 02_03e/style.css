@@ -1,0 +1,9 @@
+.demo-area {
+    margin: 0 auto;
+    width: 50ch;
+}
+
+blockquote {
+    border-inline-start: 1rem solid black;
+    padding-inline-start: 1rem;
+}

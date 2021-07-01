@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+.main-nav {
+    position: sticky;
+    top: 0;
+}
+
+.main-nav ul {
+    width: 70ch;
+    margin: 1rem auto;
+    padding: 0;
+    display: flex;
+    gap: .5rem;
+    list-style-type: none;
+    background: white;
+    border: .5rem solid white;
+}
+
+.main-nav li a {
+    display: block;
+    padding: .25rem .5rem;
+    background: hsl(47, 84%, 56%);
+    color: black;
+    text-decoration: none;
+}
+
+.demo-area {
+    margin: 0 auto 5rem;
+    width: 70ch;
+}
+
+.footer-content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background: hsl(47, 84%, 56%);
+}

@@ -1,0 +1,22 @@
+:root {
+    font-size: 20px;
+}
+
+.demo-area {
+    margin: 0 auto;
+    width: 70ch;
+}
+
+.demo-area p:first-of-type::first-letter {
+    float: left; /* For Webkit */
+    float: inline-start;
+    font-size: 4em; /* 4 times the size of the related text. */
+    line-height: 1;
+    margin: 0 .1em .1em 0;
+    padding: .2em .1em;
+    background: hsl(0, 59%, 41%);
+    color: white;
+    text-shadow: 3px 3px 0 hsl(0, 59%, 15%);
+    
+    
+}

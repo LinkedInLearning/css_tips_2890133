@@ -1,0 +1,22 @@
+.demo-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.default,
+.larger {
+    margin: 0 auto;
+    padding: 0 1rem;
+    border: 1px solid hsl(0, 0%, 50%);
+    width: 35em;
+    width: 70ch;
+}
+
+.default {
+    margin-block-end: 1rem;   
+}
+
+.larger {
+    font-size: 28px;
+}

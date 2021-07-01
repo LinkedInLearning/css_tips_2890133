@@ -1,0 +1,59 @@
+:root {
+    --key-color: purple;
+    --box-unit: 1rem;
+    --box-offset: calc(var(--box-unit) * 1);
+    --box-padding: var(--box-unit);
+    --box-border: calc(var(--box-unit) / 2);
+}
+
+.demo-area {
+    margin: 0 auto;
+    width: 70ch;
+    display: flex;
+    justify-content: center
+}
+
+.card::before {
+    display: block;
+    position: absolute;
+    top: calc(-1 * var(--box-border));
+    left: calc(-1 * var(--box-border));
+    z-index: -1;
+    border: var(--box-border) solid var(--key-color);
+    margin-block-start: var(--box-offset);
+    margin-inline-start: var(--box-offset);
+    height: 100%;
+    width: 100%;
+    content: "";
+    background-color: var(--key-color);
+}
+
+.card {
+    width: min(30ch, calc(100vh - calc(var(--box-border) * 2)));
+    border: var(--box-border) solid var(--key-color);
+    padding: var(--box-padding);
+    font-size: 1.2rem;
+    position: relative;
+    background: white;
+}
+
+
+
+.card img {
+    width: calc(100% + calc(var(--box-padding) * 2));
+    margin: calc(-1 * var(--box-padding)) calc(-1 * var(--box-padding)) 0 calc(-1 * var(--box-padding));
+}
+
+.card h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card p {
+    height: 4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

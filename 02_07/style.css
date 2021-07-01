@@ -1,0 +1,16 @@
+.demo-area {
+    margin: 0 auto;
+    max-width: 70ch;
+}
+
+.square {
+    width: 50%;
+    margin-inline-end: 1rem;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    float: left;
+}
+
+.demo-area h2 {
+    clear: left;
+}

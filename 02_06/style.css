@@ -1,0 +1,23 @@
+.demo-area {
+    margin: 0 auto;
+    max-width: 70ch;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.widescreen {
+    margin-block-end: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70ch;
+    background-color: hsl(0, 0%, 75%);
+    aspect-ratio: 16/9;    
+}
+
+.square {
+    width: 50ch;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}

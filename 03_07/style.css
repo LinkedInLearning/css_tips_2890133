@@ -1,0 +1,21 @@
+:root {
+    font-size: 20px;
+}
+
+.demo-area {
+    margin: 0 auto;
+    width: 70ch;
+}
+
+.demo-area p {
+    line-height: 1.12;
+}
+
+/* .demo-area h2 {
+    font-size: 6rem;
+    line-height: .8;
+} */
+
+.demo-area li {
+    line-height: 1.5;
+}

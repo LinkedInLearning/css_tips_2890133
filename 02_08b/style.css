@@ -2,7 +2,6 @@
     margin: 0 auto;
     max-width: 70ch;
     border: 1em solid black;
-    display: flow-root;
 }
 
 /* Old school clearfix */

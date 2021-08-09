@@ -17,12 +17,10 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem 1rem;
 }
 
 .flexible {
     display: flex;
-    gap: 1rem;
 }
 
 .flexible li {
